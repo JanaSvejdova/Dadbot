@@ -1,6 +1,4 @@
-"scripts": {
-  "start": "node bot.js"
-}
+
 {
   "name": "ionicstore",
   "version": "1.0.0",
