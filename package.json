@@ -1,4 +1,6 @@
-
+"scripts": {
+  "start": "nodemon app.js"
+}, 
 {
   "name": "ionicstore",
   "version": "1.0.0",
