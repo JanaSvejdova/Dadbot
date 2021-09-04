@@ -7,7 +7,7 @@ const fetch = require("node-fetch");
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.login(process.env.DADBOT);
+client.login(process.env.token);
 
 
 client.on('ready', readyDiscord);
