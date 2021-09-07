@@ -99,6 +99,111 @@ const replies = [
 "Animal testing is a terrible idea because they get all nervous and give the wrong answers.",
 "“I was playing chess with my friend and he said, ‘Let’s make this interesting’. So we stopped playing chess.” — Matt Kirshen",
 "“Crime in multi-story car parks. That is wrong on so many different levels.” — Tim Vine",
+"“I was raised as an only child, which really a
+
+
+
+console.log('Beep beep!');
+
+require('dotenv').config();
+
+const fetch = require("node-fetch");
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.login(process.env.token);
+
+
+client.on('ready', readyDiscord);
+
+function readyDiscord() {
+  console.log('Daddy is ready');
+} 
+
+const replies = [
+  "I can’t believe I got fired from the calendar factory. All I did was take a day off!",
+  "Money talks. Mine always says goodbye.",
+  "I went to see the doctor about my short-term memory problems — the first thing he did was make me pay in advance.",
+  "You have two parts of the brain, “left” and “right”. On the left side, there’s nothing right and on the right side, there’s nothing left.",
+  "Why do bees hum? They don’t remember the lyrics!",
+  "I have a dog to provide me with unconditional love, but I also have a cat to remind me that I don’t deserve it. It’s all about balance.",
+  "Don’t spell part backward. It’s a trap.",
+  "Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.",
+"Most people are shocked when they find out how bad I am as an electrician.",
+"I find it ironic that the colors red, white, and blue stand for freedom until they are flashing behind you.",
+"Is your bottom jealous of the amount of crap that comes out of your mouth?",
+"There’s a new restaurant called Karma. There’s no menu. You get what you deserve.",
+"Did you hear about the guy whose whole left side got amputated? He’s all right now.",
+"Thanks for explaining the word “many” to me, it means a lot.",
+"I hope when I inevitably choke to death on gummy bears, people just say I was killed by bears and leave it at that.",
+"I accidentally handed my wife a glue stick instead of chapstick. She still isn’t talking to me.",
+"I’m reading a book about anti-gravity. It’s impossible to put down.",
+"I wasn’t originally going to get a brain transplant, but then I changed my mind.",
+"R.I.P boiled water. You will be mist.",
+"Alcohol is a perfect solvent: It dissolves marriages, families, and careers.",
+"I got a new pair of gloves today, but they’re both lefts which, on the one hand, is great, but on the other, it’s just not right.",
+"My wife just found out I replaced our bed with a trampoline. She hit the roof.",
+"What is the best thing about living in Switzerland? Well, the flag is a big plus.",
+"Atheism is a non-prophet organization.",
+"Did you hear about the guy who got hit in the head with a can of soda? He didn’t get hurt because it was a soft drink.",
+"The future, the present, and the past walked into a bar. Things got a little tense.",
+"At what age is it appropriate to tell my dog that he’s adopted?",
+"I just found out that I’m colorblind. The diagnosis came completely out of the purple.",
+"I bought some shoes from a drug dealer. I don’t know what he laced them with, but I’ve been tripping all day.",
+"My boss is going to fire the employee with the worst posture. I have a hunch, it might be me.",
+"I started out with nothing, and I still have most of it.",
+"Smoking will kill you… bacon will kill you… and yet, smoking bacon will cure it.",
+"I was addicted to the hokey pokey… but thankfully, I turned myself around.",
+"Did Noah include termites on the ark?",
+"The man who created autocorrect has died. Restaurant in peace.",
+"I used to think I was indecisive, but now I’m not too sure.",
+"My wife likes it when I blow air on her when she’s hot, but honestly… I’m not a fan.",
+"I really hate Russian dolls, they’re so full of themselves.",
+"The first time I got a universal remote control, I thought to myself, “This changes everything.”",
+"I refused to believe the road worker was stealing from his job, but when I went to his home, all the signs were there.",
+"I recently decided to sell my vacuum cleaner — all it was doing was gathering dust.",
+"PMS jokes are not funny — period!",
+"Where there’s a will, there’s a relative.",
+"It’s hard to explain puns to kleptomaniacs — they’re always taking things literally.",
+"I like to hold hands at the movies, which always seems to startle strangers.",
+"Women should not have children after 35, but 35 kids are enough!",
+"There are three kinds of people. Those who can count and those who can’t.",
+"Whenever I lose my TV controller, I always find it in a remote location.",
+"My first job was working in an orange juice factory, but I got canned. I just couldn’t concentrate.",
+"My math teacher called me average. She’s so mean!",
+"“The easiest time to add insult to injury is when you’re signing somebody’s cast.” — Demetri Martin",
+"I don’t have an attitude problem. You have a perception problem.",
+"I’m skeptical of anyone who tells me they do yoga every day. That’s a bit of a stretch.",
+"Light travels faster than sound, which is why some people appear bright before they open their mouth.",
+"“It’s sad that a family can be torn apart by something as simple as wild dogs.” — Jack Handey",
+"I don’t have a boyfriend, but I do know a guy who would be really mad to hear that.",
+"“The worst time to have a heart attack is during a game of charades.” — Demetri Martin",
+"When dogs go to sleep, they read bite-time stories before bed.",
+"“I don’t want to be part of a club that would have me as a member.” — Groucho Marx",
+"“Does my wife think I’m a control freak? I haven’t decided yet.” — Stewart Francis",
+"Dogs hate driving because they can never find a barking space.",
+"“I have a lot of growing up to do. I realized that the other day inside my fort.” — Zach Galifianakis",
+"“Honesty may be the best policy, but it’s important to remember that apparently, by elimination, dishonesty is the second-best policy.” — George Carlin",
+"“I looked up my family tree and found out I was the sap.” — Rodney Dangerfield",
+"Keep the dream alive — hit your snooze button.",
+"It sure takes a lot of balls to golf the way I do.",
+"I was wondering why the ball kept getting bigger and bigger, and then it hit me.",
+"The person who invented knock-knock jokes should get a no bell prize.",
+"The other day I asked the banker to check my balance, so she pushed me.",
+"For a while, Houdini would use a trap door in every single one of his shows. I guess you could say he was going through a stage.",
+"I hope there’s no pop quiz on the class trip to the Coca-Cola factory.",
+"If money doesn’t grow on trees, how come banks have branches?",
+"I didn’t like my beard at first, but it grew on me.",
+"Give me the calculator. Friends don’t let friends derive drunk.",
+"A baseball walks into a bar, and the bartender throws it out.",
+"I doubt, therefore, I might be.",
+"I used to have a handle on life, but then it broke.",
+"I had an “hourglass” figure, but then the sand shifted.",
+"When everything is coming your way — you’re in the wrong lane.",
+"Animal testing is a terrible idea because they get all nervous and give the wrong answers.",
+"“I was playing chess with my friend and he said, ‘Let’s make this interesting’. So we stopped playing chess.” — Matt Kirshen",
+"“Crime in multi-story car parks. That is wrong on so many different levels.” — Tim Vine",
 "“I was raised as an only child, which really annoyed my sister.” — Will Marsh",
 "“People who use selfie sticks really need to have a good, long look at themselves.” — Abi Roberts",
 "“A thesaurus is great. There’s no other word for it.” — Ross Smith",
