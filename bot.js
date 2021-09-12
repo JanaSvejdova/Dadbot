@@ -3,7 +3,61 @@ console.log('Beep bensole.log('Beep beep!');
 require('dotenv').config();
 
 const fetch = require("node-fetch");
+console.log('Beep beep!');console.log('Beep bensole.log('Beep beep!');
+require('dotenv').config();
+
+const fetch = require("node-fetch");
 console.log('Beep beep!');
+
+require('dotenv').config();
+
+const fetch = require("node-fetch");
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.login(process.env.token);
+
+
+client.on('ready', readyDiscord);
+
+function readyDiscord() {
+  console.log('Daddy is ready');
+} 
+
+const replies = [
+  "I can’t believe I got fired from the calendar factory. All I did was take a day off!",
+  "Money talks. Mine always says goodbye.",
+  "I went to see the doctor about my short-term memory problems — the first thing he did was make me pay in advance.",
+  "You have two parts of the brain, “left” and “right”. On the left side, there’s nothing right and on the right side, there’s nothing left.",
+  "Why do bees hum? They don’t remember the lyrics!",
+  "I have a dog to provide me with unconditional love, but I also have a cat to remind me that I don’t deserve it. It’s all about balance.",
+  "Don’t spell part backward. It’s a trap.",
+  "Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water.",
+"Most people are shocked when they find out how bad I am as an electrician.",
+"I find it ironic that the colors red, white, and blue stand for freedom until they are flashing behind you.",
+"Is your bottom jealous of the amount of crap that comes out of your mouth?",
+"There’s a new restaurant called Karma. There’s no menu. You get what you deserve.",
+"Did you hear about the guy whose whole left side got amputated? He’s all right now.",
+"Thanks for explaining the word “many” to me, it means a lot.",
+"I hope when I inevitably choke to death on gummy bears, people just say I was killed by bears and leave it at that.",
+"I accidentally handed my wife a glue stick instead of chapstick. She still isn’t talking to me.",
+"I’m reading a book about anti-gravity. It’s impossible to put down.",
+"I wasn’t originally going to get a brain transplant, but then I changed my mind.",
+"R.I.P boiled water. You will be mist.",
+"Alcohol is a perfect solvent: It dissolves marriages, families, and careers.",
+"I got a new pair of gloves today, but they’re both lefts which, on the one hand, is great, but on the other, it’s just not right.",
+"My wife just found out I replaced our bed with a trampoline. She hit the roof.",
+"What is the best thing about living in Switzerland? Well, the flag is a big plus.",
+"Atheism is a non-prophet organization.",ep!');
+require('dotenv').config();
+const fetch = require("node-fetch");
+console.log('Beep beep!');
+require('dotenv').config();
+const fetch = require("node-fetch");
+const Discord = require('
+
+
 
 require('dotenv').config();
 
